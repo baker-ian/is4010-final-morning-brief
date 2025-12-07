@@ -8,7 +8,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
 
 # Import your function. ADJUST THIS if your function is named differently
 # or located in a different file (e.g., from main import get_weather)
-from morning_brief.weather import get_weather
+from src.weather import get_weather
 
 # Sample data that looks like a real OpenWeatherMap response
 MOCK_WEATHER_DATA = {
