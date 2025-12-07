@@ -38,7 +38,7 @@ def start():
         """
         console.print(Panel(Markdown(weather_display), title="🌤️  Current Weather", border_style="green"))
 
-    # 3. Get Sports (THIS WAS MISSING)
+    # 3. Get Sports
     console.print("\n[italic]Checking for games...[/italic]")
     games = get_sports_scores(my_teams)
     

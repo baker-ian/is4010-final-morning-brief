@@ -80,5 +80,5 @@ def get_sports_scores(my_teams: list) -> list:
 
 if __name__ == "__main__":
     # Test teams
-    test_teams = ["Reds", "Bengals", "Blue Jackets", "Celtics", "Cavaliers"]
+    test_teams = ["Reds", "Bengals", "Blue Jackets", "Guardians", "Cavaliers", "Browns"]
     print(get_sports_scores(test_teams))
