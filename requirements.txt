@@ -1,0 +1,15 @@
+# For fetching data from the web
+requests
+
+# For handling API keys securely
+python-dotenv
+
+# For making the terminal look professional (tables, colors)
+rich
+
+# For creating CLI commands easily (optional but recommended, or we can use argparse)
+typer
+
+# For testing (REQUIRED by the project)
+pytest
+pytest-mock

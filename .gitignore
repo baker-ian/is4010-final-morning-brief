@@ -1,0 +1,23 @@
+# Python Boilerplate
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment (Where your libraries live)
+venv/
+.venv/
+env/
+
+# Environment Variables (CRITICAL: Keeps your API keys safe)
+.env
+
+# Testing cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor settings (Optional, but keeps repo clean)
+.vscode/
+.idea/
+.DS_Store
