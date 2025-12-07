@@ -6,7 +6,7 @@ import requests  # <--- NEW IMPORT NEEDED
 
 # Ensure we can find the src directory
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
+os.environ["WEATHER_API_KEY"] = "test"
 from src.weather import get_weather
 
 MOCK_WEATHER_DATA = {
